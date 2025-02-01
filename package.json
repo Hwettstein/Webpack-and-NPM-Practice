@@ -1,0 +1,26 @@
+{
+  "name": "webpack-and-npm-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hwettstein/Webpack-and-NPM-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hwettstein/Webpack-and-NPM-Practice/issues"
+  },
+  "homepage": "https://github.com/Hwettstein/Webpack-and-NPM-Practice#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  }
+}
